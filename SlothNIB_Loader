@@ -1,6 +1,6 @@
 if game.PlaceId == 486669255 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/SlothNIB/Scripts/refs/heads/main/SlothNIB_AOH_Source"))()
-elseif game.PlaceId ~= 486669255 then
+elseif game.PlaceId = 10449761463 then
     game:GetService("StarterGui"):SetCore("SendNotification", {
         Title = "[ERROR]",
         Text = "Game Not Supported | SlothNIB",
